@@ -3,7 +3,7 @@
 """
 tf 训练识别身份证数字(18个字符)图片
 
-@author: pengyuanjie
+@author: jianshuzhang
 """
 import copy
 import random
@@ -56,7 +56,7 @@ def read_image(filename, resize_height, resize_width,normalization=False):
     :param filename:
     :param resize_height:
     :param resize_width:
-    :param normalization:是否归一化到[0.,1.0]
+    :param normalization:是否归一化到[0.,255.0]
     :return: 返回的图片数据
     '''
 
